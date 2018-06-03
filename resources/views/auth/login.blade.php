@@ -17,10 +17,12 @@
 
     <body>
 <br><br>
+
+<div class="login">
         <form>
 
           @if(Session::has('msg_sucess'))
-            <div class="alert alert-sucess"> <img src="img/sucess.png" height="50" width="50" title="Sucesso!">
+            <div class="alert alert-sucess" style="color:#FFF;" > <img src="img/sucess.png" height="50"  width="50" title="Sucesso!">
                {{Session::get('msg_sucess')}}
             </div>
           @endif
@@ -135,6 +137,7 @@
                 <a class="d-block small link" href="forgot-password">Esqueceu a senha?</a>
             </div>
         </form>
+      </div>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js'></script>
         <!--<script src='http://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js?r=182'></script>-->
 

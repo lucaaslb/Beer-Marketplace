@@ -13,7 +13,7 @@ class NationalitySeeder extends Seeder
 
       $today = date('y-m-d G:i:s');
 
-      $nationalities= array('Brasil', 'Alemanha', 'Bélgica', 'Inlgaterra', 'EUA',
+      $nationalities= array('Brasil', 'Alemanha', 'Bélgica', 'Inglaterra', 'EUA',
        'Argentina', 'Uruguai' );
 
       sort($nationalities);

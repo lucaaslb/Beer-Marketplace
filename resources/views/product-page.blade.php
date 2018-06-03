@@ -20,7 +20,7 @@
                 <div class="col-lg-7">
                     <div class="card-body">
                         <h3>{{$product->name}} - {{$product->ml}}ml</h3>
-                        <h4>R${{$product->price}}</h4>
+                        <h4>R${{$product->price}},00</h4>
                         <p class="card-text">
                           {{$product->introduction}}
                         </p>

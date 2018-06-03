@@ -95,7 +95,7 @@
                 </div>
                 <a href='product-page/{{$product->id}}'>
                   <figcaption>
-                    <h2>{{$product->name}}</h2><h3>R$ {{$product->price}} </h3>
+                    <h2>{{$product->name}}</h2><h3>R$ {{$product->price}},00</h3>
                     <!-- <p> {{$product->descr}}</p> -->
                     <br>
                     <a class="btn btn-primary btn-block">Comprar</a>

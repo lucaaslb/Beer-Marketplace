@@ -13,8 +13,6 @@ use App\Http\Controllers\ProductsController;
 |
 */
 
-/* Rotas de testes - Modificar conforme avanço */
-
 
 // liberar apenas para quando não estiver logado
 Route::get('/register', 'ConsumerController@create');
